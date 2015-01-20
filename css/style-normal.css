@@ -5,15 +5,19 @@
 */
 
 /*********************************************************************************/
-/* Basic                                                                         */
+/* Main                                                                          */
 /*********************************************************************************/
 
-	/* Button */
-		
-		input[type="button"],
-		input[type="submit"],
-		input[type="reset"],
-		.button
+	#main
+	{
+	}
+	
+		#main > section
 		{
-			background-image: url('images/grad0-15.svg');
+			padding: 3em 0;
+		}
+
+		#main section.cover
+		{
+			padding: 5em 0;
 		}
