@@ -26,11 +26,11 @@ p, ol, ul
 	margin-top: 0;
 }
 
-ol, ul
+/*ol, ul
 {
 	padding: 0;
 	list-style: none;
-}
+}*/
 
 p
 {
@@ -246,7 +246,7 @@ ul.contact li a.icon-rss:before
 
 	.tbox1,  .tbox2
 {
-	width: 575px;
+	width: 475px;
 }
 
 .tbox1
@@ -601,7 +601,8 @@ ul.style4 a
 	color: #2D2D2D;
 }
 
-ul.style4 p{
+ul.style4 p
+{
 	padding-top:0.75em;
 	padding-bottom: :0.75em;
 }
@@ -611,3 +612,35 @@ ul.style4 .first
 	padding-top: 0px;
 	border-top: none;
 }
+
+/*********************************************************************************/
+/* Table Style                                                                   */
+/*********************************************************************************/
+#sponsor-table
+{
+	width: 80%;
+	text-align: center;
+}
+
+#sponsor-table .c1{
+	width: 25%;
+	padding-left: 1%;
+	text-align: left;
+}
+
+.c2
+{
+	width: 10%;
+}
+
+
+tr.r1
+{
+	font-weight: bold;
+}
+
+tr.color-row
+{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
